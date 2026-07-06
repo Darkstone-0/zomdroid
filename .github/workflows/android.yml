@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ "keyboard-experimental" ]
+    branches: [ "keyboard-experimental", "master" ]
   pull_request:
-    branches: [ "keyboard-experimental" ]
+    branches: [ "keyboard-experimental", "master" ]
 
 jobs:
   build:
